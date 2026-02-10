@@ -1,0 +1,9 @@
+{
+  "title": "About",
+  "paragraphs": [
+   "I'm a front-end engineer who loves building clean and scalable web applications. I work primarily with React, Next.js, Angular, and GraphQL, creating reusable components and intuitive user interfaces that make complex workflows simple and predictable.",
+    "Currently, I work at Publicis Sapient on the front-end team for UPS with some awesome people. In this role, I focus on building reusable components, handling complex UI states, and improving performance.",
+    "I've also worked on projects ranging from digital marketplaces to mutual fund and insurance portals, building features like search interfaces, onboarding flows, and third-party integrations. These experiences have taught me the importance of writing clear, maintainable code and thinking carefully about user experience.",
+    "Outside of work, you'll find me swimming laps or taking care of my plants."
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Projects",
+  "projects": [
+    {
+      "title": "MyFonts by Monotype",
+      "description": "Web application for browsing and purchasing fonts from a global font marketplace. Topics covered include React, Styled Components, user authentication flows, and advanced search and filter experiences using Algolia.",
+      "url": "https://www.myfonts.com/",
+      "image": "/myfonts.png"
+    },
+    {
+      "title": "UPS Enterprise Web Portal",
+      "description": "Web portal for handling logistics operations and shipment management at UPS. Topics covered include React and Angular development, reusable UI components, complex UI states, performance optimization, and cross-team collaboration.",
+      "url": "https://scsapps.ups.com/scs/",
+      "image": "/ups.png"
+    }
+  ],
+  "archiveUrl": "/archive"
+}
