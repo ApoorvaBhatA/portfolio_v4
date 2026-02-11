@@ -1,0 +1,58 @@
+{
+  "archivedProjects": [
+    {
+      "year": "2024",
+      "name": "MyFonts by Monotype",
+      "madeAt": "Publicis Sapient",
+      "builtWith": [
+        "React",
+        "Next.js",
+        "Algolia",
+        "graphQL",
+        "Styled Components"
+      ],
+      "link": "https://www.myfonts.com/"
+    },
+    {
+      "year": "2022",
+      "name": "UPS",
+      "madeAt": "Publicis Sapient",
+      "builtWith": ["Angular", "React", "Tailwind CSS"],
+      "link": "https://scsapps.ups.com/scs/"
+    },
+    {
+      "year": "2018",
+      "name": "Yoss",
+      "madeAt": "Robosoft Technologies",
+      "builtWith": ["React", "Styled Components"],
+      "link": "https://yossplatform.com"
+    },
+    {
+      "year": "2020",
+      "name": "ITI Mutual Fund",
+      "madeAt": "Robosoft Technologies",
+      "builtWith": [
+        "Angular",
+        "Signzy API",
+        "Firebase",
+        "Billdesk API",
+        "Paytm API"
+      ],
+      "link": "https://investonline.itiamc.com"
+    },
+    {
+      "year": "2020",
+      "name": "Axis Mutual Fund",
+      "madeAt": "Robosoft Technologies",
+      "builtWith": ["Angular", "Ionic"],
+      "link": "https://www.axismf.com/Online/Login"
+    },
+    {
+      "year": "2018",
+      "name": "Meeting Scheduler – ICICI Lombard",
+      "madeAt": "Robosoft Technologies",
+      "builtWith": ["Angular", "Ionic"],
+      "link": "Internal application (private)"
+    }
+  ]
+}

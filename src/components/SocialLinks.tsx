@@ -1,11 +1,13 @@
 // import Image from "next/image";
 import { Social } from "@/types/portfolio";
-import { FaGithub, FaLinkedin, FaMailBulk } from "react-icons/fa";
+import Link from "next/link";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 const imageMap = {
   "github": FaGithub,
   "linkedin": FaLinkedin,
-  "mail": FaMailBulk
+  "mail": MdEmail
 }
 
 export function SocialLinks({ socials }: { socials: Social[] }) {
@@ -17,19 +19,12 @@ export function SocialLinks({ socials }: { socials: Social[] }) {
 
         return (
         <li key={social.name}>
-          <a
+          <Link
             href={social.url}
             target="_blank"
           >
             <Icon className="w-6 h-6" />
-            {/* <Icon
-              src={social.image}
-              alt={social.name}
-              width={24}
-              height={24}
-              className="rounded border border-accent/20 object-cover"
-            /> */}
-          </a>
+          </Link>
         </li>
       )})}
     </ul>);

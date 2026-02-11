@@ -11,3 +11,15 @@ export interface ProjectsData {
   projects: Project[];
   archiveUrl: string;
 }
+
+export interface ArchivedProject {
+  year: string;
+  name: string;
+  madeAt: string;
+  builtWith: string[];
+  link: string;
+}
+
+export interface TableProps {
+  projects: ArchivedProject[];
+}

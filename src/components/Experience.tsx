@@ -2,6 +2,7 @@ import { ExperienceData, ExperienceItem } from "@/types/experience";
 import experience from "@/data/experience.json";
 import { Card } from "./Card";
 import { FaExternalLinkAlt } from "react-icons/fa";
+import Link from "next/link";
 
 const data = experience as ExperienceData;
 export default function Experience() {
@@ -21,36 +22,33 @@ export default function Experience() {
         {data.items.map((item: ExperienceItem, index: number) => (
           <li key={index} className="group">
             <Card>
-              {/* Date */}
               <header className="sm:col-span-2 text-xs font-semibold uppercase tracking-wide">
                 {item.period}
               </header>
 
-              {/* Content */}
               <div className="sm:col-span-6">
                 <h3 className="font-medium">
-                  <a
+                  <Link
                     href={item.companyUrl}
                     target="_blank"
-                    rel="noreferrer"
-                    className="text-accent group/link text-base"
+                    rel="noopener noreferrer"
+                    className="text-accent  group/link text-base"
                   >
                     <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
                     {item.role} · <span className="font-semibold">{item.company}</span>
                     <FaExternalLinkAlt className="inline-block h-3 w-3 ml-1 relative -top-px" />
-                  </a>
+                  </Link>
                 </h3>
 
                 <p className="mt-2 text-sm leading-relaxed">
                   {item.description}
                 </p>
 
-                {/* Tech stack */}
                 <ul className="mt-3 flex flex-wrap gap-2">
                   {item.technologies.map((tech: string, i: number) => (
                     <li
                       key={i}
-                      className="rounded-full border px-3 py-1 text-xs font-medium"
+                      className="px-3 py-1 text-xs font-medium rounded-full bg-accent/10 text-accent"
                     >
                       {tech}
                     </li>
@@ -62,15 +60,15 @@ export default function Experience() {
         ))}
       </ol>
 
-      {/* Resume link */}
       <div className="mt-12">
-        <a
+        <Link
           href={data.resumeUrl}
           target="_blank"
+          rel="noopener noreferrer"
           className="inline-flex items-center font-semibold hover:underline"
         >
           View Full Resume <FaExternalLinkAlt className="ml-1 w-3 h-3" />
-        </a>
+        </Link>
       </div>
     </section>
   );

@@ -1,6 +1,7 @@
 "use client";
 import { useScrollSpy } from "@/hooks/useScrollSpy";
 import { Section } from "@/types/portfolio";
+import Link from "next/link";
 
 export function SidebarNav({sections}: {sections: Section[]}) {
   const activeId = useScrollSpy(sections.map((s) => s.id));
@@ -13,7 +14,7 @@ export function SidebarNav({sections}: {sections: Section[]}) {
 
               return (
                 <li key={section.id}>
-                  <a
+                  <Link
                     href={`#${section.id}`}
                     className={`group flex items-center py-3 transition-all`}
                   >
@@ -30,10 +31,10 @@ export function SidebarNav({sections}: {sections: Section[]}) {
                       className={`ml-4 h-px w-8 transition-all ${
                         isActive
                           ? "w-16 bg-accent"
-                          : "bg-[#C8C8CE] group-hover:w-16 group-hover:bg-accent/50"
+                          : "bg-primary-text/20 group-hover:w-16 group-hover:bg-accent/50"
                       }`}
                     />
-                  </a>
+                  </Link>
                 </li>
               );
             })}

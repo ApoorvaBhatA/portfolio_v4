@@ -2,7 +2,8 @@ import Image from "next/image";
 import project from "@/data/projects.json";
 import { Project, ProjectsData } from "@/types/project";
 import { Card } from "./Card";
-import { FaArrowRight } from "react-icons/fa";
+import { FaArrowRight, FaExternalLinkAlt } from "react-icons/fa";
+import Link from "next/link";
 
 const data = project as ProjectsData;
 
@@ -32,21 +33,23 @@ export default function Projects() {
                   alt={project.title}
                   width={300}
                   height={200}
-                  className="rounded border border-[#007bff]/20 object-cover"
+                  className="rounded border border-accent/20 object-cover"
                 />
               </div>
 
               {/* Content */}
               <div className="sm:col-span-6">
                 <h3 className="text-base font-semibold">
-                  <a
+                  <Link
                     href={project.url}
                     target="_blank"
-                    rel="noreferrer"
+                    rel="noopener noreferrer"
                     className="text-accent"
                   >
-                    {project.title} →
-                  </a>
+                    <span className="absolute -inset-x-4 -inset-y-2.5 hidden rounded md:-inset-x-6 md:-inset-y-4 lg:block"></span>
+                    {project.title}
+                    <FaExternalLinkAlt className="inline-block h-3 w-3 ml-1 relative -top-px" />
+                  </Link>
                 </h3>
 
                 <p className="mt-2 text-sm leading-relaxed">
@@ -72,13 +75,12 @@ export default function Projects() {
 
       {/* Archive link */}
       <div className="mt-12">
-        <a
-          href={data.archiveUrl}
-          target="_blank"
+        <Link
+          href="/archive"
           className="inline-flex items-center font-semibold hover:underline"
         >
           View Full Project Archive <FaArrowRight className="ml-1 w-3 h-3" />
-        </a>
+        </Link>
       </div>
     </section>
   );

@@ -8,8 +8,8 @@
     { "id": "projects", "label": "Projects" }
   ],
   "socials": [
-    { "name": "GitHub", "image": "github", "url": "https://github.com/yourname" },
-    { "name": "LinkedIn", "image": "linkedIn", "url": "https://linkedin.com/in/yourname" },
-    { "name": "Mail", "image": "mail", "url": "mailto:yourname@example.com" }
+    { "name": "GitHub", "image": "github", "url": "https://github.com/ApoorvaBhatA" },
+    { "name": "LinkedIn", "image": "linkedIn", "url": "https://www.linkedin.com/in/apoorva-abhat/" },
+    { "name": "Mail", "image": "mail", "url": "mailto:apoorva.abhat@gmail.com" }
   ]
 }

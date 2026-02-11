@@ -21,13 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${raleway.className} bg-background text-primary-text`}>
-        <div className="mx-auto min-h-screen max-w-7xl px-6 py-12 md:px-12 md:py-16 lg:py-0">
-          <div className="lg:flex lg:justify-between lg:gap-4">
-            <Sidebar />
-            <main className="text-primary-text pt-24 lg:w-[52%] lg:py-24">
-              {children}</main>
-          </div>
-        </div>
+       {children}
       </body>
     </html>
   );

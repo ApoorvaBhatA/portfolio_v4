@@ -39,7 +39,8 @@
   --color-background: #ffffff;    
   --color-primary-text: #24292f;  
   --color-accent: #0366d6;        
-  --color-hover: #024ea2;         
+  --color-hover: #024ea2;   
+  --color-border: #e1e4e8      
 }
 
 @layer base {
