@@ -3,7 +3,7 @@ export interface ExperienceItem {
   role: string;
   company: string;
   companyUrl: string;
-  description: string;
+  description: string[];
   technologies: string[];
 }
 

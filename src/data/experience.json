@@ -6,15 +6,29 @@
       "role": "Technology Associate (L2)",
       "company": "Publicis Sapient",
       "companyUrl": "https://www.publicissapient.com/",
-      "description": "Currently working on the front-end team for UPS, building reusable components, handling complex UI states, and optimizing performance across large-scale applications. Collaborate closely with designers, product managers, and backend engineers to translate requirements into intuitive and reliable interfaces. Previously, contributed to the Monotype project from scratch using Next.js and Algolia, including preparing and presenting client demos.",
-      "technologies": ["JavaScript", "TypeScript", "React", "Next.js", "Angular", "GraphQL", "Storybook"]
+      "description": [
+        "Currently working on the front-end team for UPS, building reusable UI components, managing complex application states, and optimizing performance for large-scale web applications. I collaborate closely with designers, product managers, and backend engineers to deliver intuitive and reliable user experiences.",
+        "Previously, I contributed to the Monotype project from the ground up using Next.js and Algolia, including preparing and presenting client demos."
+      ],
+      "technologies": [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Angular",
+        "GraphQL",
+        "Storybook"
+      ]
     },
     {
       "period": "2018 — 2022",
       "role": "Software Engineer",
       "company": "Robosoft Technologies",
       "companyUrl": "https://www.robosoftin.com/",
-      "description": "At Robosoft Technologies, I built, styled, and shipped high-quality websites, design systems, and mobile apps for clients including ICICI Lombard, Axis Mutual Fund, and Yoss. I worked closely with designers and backend teams to translate requirements into maintainable, user-friendly interfaces, and ensured smooth deployment across web and mobile platforms. This included building apps using Angular and Ionic, which were successfully published on both the Play Store and App Store. My focus was always on creating scalable, reliable, and visually polished experiences for end users.",
+      "description": [
+        "At Robosoft Technologies, I built and shipped high-quality web and cross-platform mobile applications for clients including ICICI Lombard, Axis Mutual Fund, and Yoss. I collaborated closely with designers and backend teams to translate business requirements into scalable, user-friendly interfaces and ensured smooth deployment across web and mobile platforms.",
+        "I developed applications using Angular and Ionic, which were successfully published on both the Google Play Store and Apple App Store. My work focused on creating reliable, maintainable, and visually polished user experiences."
+      ],
       "technologies": ["JavaScript", "TypeScript", "React", "Angular", "Ionic"]
     }
   ],

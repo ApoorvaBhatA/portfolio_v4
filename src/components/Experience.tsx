@@ -40,9 +40,11 @@ export default function Experience() {
                   </Link>
                 </h3>
 
-                <p className="mt-2 text-sm leading-relaxed">
-                  {item.description}
-                </p>
+                {item.description.map((para, i) => (
+                  <p key={i} className="mt-2 text-sm leading-relaxed text-primary-text/80">
+                    {para}
+                  </p>
+                ))}
 
                 <ul className="mt-3 flex flex-wrap gap-2">
                   {item.technologies.map((tech: string, i: number) => (
