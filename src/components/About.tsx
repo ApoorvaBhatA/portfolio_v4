@@ -10,7 +10,7 @@ export default function About() {
          className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
          aria-label="About me"
        >
-         <div className="sticky top-0 z-20 mx-6 mb-6 lg:hidden">
+         <div className="sticky top-0 z-20 mb-6 bg-background lg:sr-only">
            <h2 className="py-4 text-sm font-bold uppercase tracking-widest">
              {data.title}
            </h2>

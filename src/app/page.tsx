@@ -10,7 +10,7 @@ export default function Home() {
       <div className="lg:flex lg:justify-between lg:gap-4">
         <Sidebar />
         <main className="text-primary-text pt-24 lg:w-[52%] lg:py-24">
-          <div className="mx-auto max-w-3xl px-6 py-24 space-y-32">
+          <div className="mx-auto max-w-3xl md:px-6 md:py-24 space-y-32">
             <About />
             <Experience />
             <Projects />
