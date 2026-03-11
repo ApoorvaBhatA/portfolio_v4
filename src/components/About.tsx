@@ -4,6 +4,14 @@ import about from "@/data/about.json";
 const data = about as AboutData;
 
 export default function About() {
+  function highlightText(text: string) {
+  return text.split(/(==.+?==)/g).map((part, i) =>
+    part.startsWith("==") && part.endsWith("==")
+      ? <span key={i} className="text-accent font-bold">{part.slice(2, -2)}</span>
+      : part
+  );
+}
+
   return (
       <section
          id="about"
@@ -19,7 +27,7 @@ export default function About() {
          <div className="space-y-4 leading-relaxed">
            {data.paragraphs.map((text, index) => (
              <p key={index}>
-               {text}
+               {highlightText(text)}
              </p>
            ))}
          </div>

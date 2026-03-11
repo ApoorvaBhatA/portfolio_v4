@@ -10,7 +10,7 @@ export default function Sidebar() {
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
       <div>
-        <h1 className="text-4xl font-bold tracking-tight sm:text-5xl">{portfolio.name}</h1>
+        <h1 className="text-4xl font-bold tracking-tight sm:text-6xl">{portfolio.name}</h1>
         <h2 className="mt-3 text-lg sm:text-xl font-medium">
           {portfolio.role}
         </h2>
