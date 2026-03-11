@@ -17,7 +17,7 @@
       "year": "2022",
       "name": "UPS",
       "madeAt": "Publicis Sapient",
-      "builtWith": ["Angular", "React", "Tailwind CSS"],
+      "builtWith": ["Angular", "React"],
       "link": "https://scsapps.ups.com/scs/"
     },
     {
@@ -33,6 +33,7 @@
       "madeAt": "Robosoft Technologies",
       "builtWith": [
         "Angular",
+        "Ionic",
         "Signzy API",
         "Firebase",
         "Billdesk API",
@@ -44,14 +45,14 @@
       "year": "2020",
       "name": "Axis Mutual Fund",
       "madeAt": "Robosoft Technologies",
-      "builtWith": ["Angular", "Ionic"],
+      "builtWith": ["React", "GraphQL"],
       "link": "https://www.axismf.com/Online/Login"
     },
     {
       "year": "2018",
       "name": "Meeting Scheduler – ICICI Lombard",
       "madeAt": "Robosoft Technologies",
-      "builtWith": ["Angular", "Ionic"],
+      "builtWith": ["React", "Styled Components"],
       "link": "Internal application (private)"
     }
   ]

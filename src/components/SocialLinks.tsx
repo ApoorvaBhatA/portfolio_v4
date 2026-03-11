@@ -1,4 +1,3 @@
-// import Image from "next/image";
 import { Social } from "@/types/portfolio";
 import Link from "next/link";
 import { FaGithub, FaLinkedin } from "react-icons/fa";

@@ -10,23 +10,16 @@ const data = project as ProjectsData;
 export default function Projects() {
   return (
     <section id="projects" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24">
-      {/* Mobile sticky header */}
       <div className="sticky top-0 z-20 mb-6 bg-background lg:sr-only">
         <h2 className="py-4 text-sm font-bold uppercase tracking-widest">
           {data.title}
         </h2>
       </div>
 
-      {/* Desktop title */}
-      {/* <h2 className="hidden lg:block mb-8 text-sm font-bold uppercase tracking-widest">
-        {data.title}
-      </h2> */}
-
       <ul className="space-y-12">
         {data.projects.map((project: Project, index: number) => (
           <li key={index} className="group">
             <Card>
-              {/* Image */}
               <div className="sm:col-span-2">
                 <Image
                   src={project.image}
@@ -37,7 +30,6 @@ export default function Projects() {
                 />
               </div>
 
-              {/* Content */}
               <div className="sm:col-span-6">
                 <h3 className="text-base font-semibold">
                   <Link
@@ -56,24 +48,12 @@ export default function Projects() {
                   {project.description}
                 </p>
 
-                {/* Tech stack */}
-                {/* <ul className="mt-3 flex flex-wrap gap-2">
-                  {project.technologies.map((tech: string, i: number) => (
-                    <li
-                      key={i}
-                      className="rounded-full bg-[#fef6f6] px-3 py-1 text-xs font-medium"
-                    >
-                      {tech}
-                    </li>
-                  ))}
-                </ul> */}
               </div>
             </Card>
           </li>
         ))}
       </ul>
 
-      {/* Archive link */}
       <div className="mt-12">
         <Link
           href="/archive"

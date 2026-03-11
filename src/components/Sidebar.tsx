@@ -6,7 +6,6 @@ import { PortfolioData1 } from "@/types/portfolio";
 import { SocialLinks } from "./SocialLinks";
 
 const portfolio = data as PortfolioData1;
-// lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24
 export default function Sidebar() {
   return (
     <header className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-[48%] lg:flex-col lg:justify-between lg:py-24">
@@ -20,7 +19,6 @@ export default function Sidebar() {
         <SidebarNav sections={portfolio.sections} />
       </div>
 
-      {/* Socials */}
       <SocialLinks socials={portfolio.socials} />
     </header>
   );
