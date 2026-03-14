@@ -22,7 +22,7 @@ export function SocialLinks({ socials }: { socials: Social[] }) {
             href={social.url}
             target="_blank"
           >
-            <Icon className="w-6 h-6" />
+            <Icon className="w-6 h-6" aria-hidden="true"/>
           </Link>
         </li>
       )})}
