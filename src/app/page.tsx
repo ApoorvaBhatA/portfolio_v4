@@ -15,7 +15,7 @@ export default function Home() {
             <Experience />
             <Projects />
           </div>
-          <footer className="mt-32 text-sm text-slate-400">
+          <footer className="mt-32 text-sm text-slate-500">
             <p>Built with Next.js and Tailwind CSS, deployed with Vercel.</p>
           </footer>
         </main>
