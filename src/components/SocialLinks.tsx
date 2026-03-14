@@ -21,6 +21,7 @@ export function SocialLinks({ socials }: { socials: Social[] }) {
           <Link
             href={social.url}
             target="_blank"
+            aria-label={`${social.name} (opens in new tab)`}
           >
             <Icon className="w-6 h-6" aria-hidden="true"/>
           </Link>
